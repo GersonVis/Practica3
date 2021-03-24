@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @font-face {
+            font-family: 'Hagin';
+            src: url('fonts/HaginCapsMedium-Medium.woff');
+            font-weight: bold;
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            src: url('fonts/Poppins-LightItalic.ttf');
+        }
+
+        @font-face {
+            font-family: 'Poppins-normal';
+            src: url('fonts/Poppins-Medium.ttf');
+        }
+
+        header {
+            height: 100%;
+            overflow: hidden;
+            background: url('images/mars-mars-rover-space-travel-robot-73910.jpeg') fixed top;
+            background-size: contain;
+        }
+
+        .container {
+            width: 45%;
+            height: 60%;
+            position: relative;
+            top: 7%;
+            left: 7%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .marca {
+            width: fit-content;
+            font-family: Hagin;
+            font-size: 2rem;
+            color: rgb(238, 238, 238);
+            letter-spacing: 2px;
+        }
+
+        .titulo {
+            width: 90%;
+            margin-top: 5%;
+            margin-bottom: 0px;
+            font-family: Poppins;
+            font-size: 2rem;
+            letter-spacing: .2rem;
+            text-align: justify;
+            color: rgb(250, 250, 250);
+        }
+
+        .aviso {
+            width: 90%;
+            margin-top: 10px;
+            font-family: Poppins-normal;
+            font-size: .8rem;
+            line-height: 1.5rem;
+            letter-spacing: .2rem;
+            text-align: left;
+            color: rgb(238, 238, 238);
+        }
+
+        .cta {
+            position: absolute;
+            bottom: 20%;
+            right: 7%;
+        }
+
+        .cta a {
+            border: solid;
+            font-family: Poppins-normal;
+            font-size: 1rem;
+            text-decoration: none;
+            padding: 15px 25px;
+            background-color: rgba(107, 107, 107, 0.6);
+            color: rgb(238, 238, 238);
+        }
+
+        .cta a:hover {
+            color: aliceblue;
+            background-color: rgba(7, 7, 7, 0.6);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="marca">r2dev</div>
+            <h1 class="titulo">Nuestro blog de diseño se lanzará próximamente</h1>
+            <p class="aviso">¡Regístrate para ser el primero en enterarte
+                cuando nuestro blog esté publicado</p>
+        </div>
+        <div class="cta">
+            <div class="boton">
+                <a href="#">Regístrate</a>
+            </div>
+            <div class="redes-sociales"></div>
+        </div>
+    </header>
+</body>
+
+</html>
